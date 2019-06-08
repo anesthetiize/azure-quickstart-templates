@@ -65,10 +65,7 @@
         "name": "[variables('publicIPAddressName')]",
         "location": "[resourceGroup().location]",
         "properties": {
-          "publicIPAllocationMethod": "Dynamic",
-          "dnsSettings": {
-            "domainNameLabel": "[parameters('dnsLabelPrefix')]"
-          }
+          "publicIPAllocationMethod": "Dynamic"
         }
       },
       {
