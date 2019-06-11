@@ -108,7 +108,7 @@
                 "osProfile": {
                     "computerName": "[variables('vmName')]",
                     "adminUsername": "Administrator",
-                    "adminPassword": "r0074dm1n"
+                    "adminPassword": "R00t4dm1n1234"
                 },
                 "storageProfile": {
                     "imageReference": {
